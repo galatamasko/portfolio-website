@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="js/swiper-bundle.min.js">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <title>Gallery</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="../index.html" class="nav__logo">
+                    Bishwas
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="../index.html#home" class="nav__link active-link">
+                                <i class="ri-home-2-line"></i> Home 
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="../index.html#skills" class="nav__link"> 
+                                <i class="ri-trophy-line"></i> Skills                            
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="../index.html#qualification" class="nav__link"> 
+                                <i class="ri-book-open-line"></i> Qualification                            
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="../index.html#services" class="nav__link">  
+                                <i class="ri-briefcase-2-line"></i> Services 
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="../index.html#projects" class="nav__link"> 
+                                <i class="ri-image-line"></i> Projects                              
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link"> 
+                                <i class="ri-image-line"></i> Gallery                              
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="../index.html#contact" class="nav__link">    
+                                <i class="ri-chat-1-line"></i> Contact                           
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- close button -->
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-fill"></i>
+                    </div>
+                </div>
+
+                <div class="nav__buttons">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                    
+                </div>
+            </nav>
+            
+        </header>
+
+        <div class="wrapper">
+          <!-- filter Items -->
+          <nav>
+            <div class="items">
+              <span class="item active" data-name="All">All</span>
+              <span class="item" data-name="Digital Art">Digital Art</span>
+              <span class="item" data-name="Photo Manipulation">Photo Manipulation</span>
+            
+            </div>
+          </nav>
+
+          <!-- filter Images -->
+          <div class="gallery">
+            <div class="image" data-name="Digital Art"><span><img src="images/ronaldo.png" alt=""></span></div>
+            <div class="image" data-name="Digital Art"><span><img src="images/messi.png" alt=""></span></div>
+            <div class="image" data-name="Digital Art"><span><img src="images/malek.png" alt=""></span></div>
+            <div class="image" data-name="Digital Art"><span><img src="images/cat.png" alt=""></span></div>
+            <div class="image" data-name="Digital Art"><span><img src="images/cillian.png" alt=""></span></div>
+            <div class="image" data-name="Digital Art"><span><img src="images/ironman.png" alt=""></span></div>
+            <div class="image" data-name="Digital Art"><span><img src="images/imp.png" alt=""></span></div>
+            <div class="image" data-name="Digital Art"><span><img src="images/proff.png" alt=""></span></div>
+            <div class="image" data-name="Photo Manipulation"><span><img src="images/A-1.png" alt=""></span></div>
+            <div class="image" data-name="Photo Manipulation"><span><img src="images/esh-4.png" alt=""></span></div>
+            <div class="image" data-name="Photo Manipulation"><span><img src="images/eshan-3.png" alt=""></span></div>
+            <div class="image" data-name="Photo Manipulation"><span><img src="images/fire.png" alt=""></span></div>
+            <div class="image" data-name="Photo Manipulation"><span><img src="images/meteor shower.png" alt=""></span></div>
+            <div class="image" data-name="Photo Manipulation"><span><img src="images/neon.png" alt=""></span></div>
+            <div class="image" data-name="Photo Manipulation"><span><img src="images/p-11.png" alt=""></span></div>
+            <div class="image" data-name="Photo Manipulation"><span><img src="images/p-5.png" alt=""></span></div>
+            <div class="image" data-name="Photo Manipulation"><span><img src="images/p-8.1.png" alt=""></span></div>
+            <div class="image" data-name="Photo Manipulation"><span><img src="images/rhino.png" alt=""></span></div>
+            <div class="image" data-name="Digital Art"><span><img src="images/14.png" alt=""></span></div>
+            <div class="image" data-name="Digital Art"><span><img src="images/aguero.png" alt=""></span></div>
+            <div class="image" data-name="Digital Art"><span><img src="images/manita.png" alt=""></span></div>
+            <div class="image" data-name="Digital Art"><span><img src="images/danphe.png" alt=""></span></div>
+            
+          </div>
+        </div>
+
+        <!-- fullscreen img preview box -->
+        <div class="preview-box">
+          <div class="details">
+            <span class="title"><p></p></span>
+            <span class="icon fas fa-times"></span>
+          </div>
+          
+          <div class="slider">
+            <div class="slide active"><div class="image-box"><img src="" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/ronaldo.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/messi.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/malek.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/cat.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/cillian.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/ironman.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/imp.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/A-1.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/esh-4.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/eshan-3.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/fire.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/meteor shower.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/neon.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/p-11.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/p-5.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/p-8.1.jpg" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/rhino.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/14.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/aguero.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/manita.png" alt=""></div></div>
+            <div class="slide"><div class="image-box"><img src="images/danphe.png" alt=""></div></div>
+            
+
+        
+            
+            <!-- Add navigation arrows here -->
+            <div class="navigation">
+                <i class="fas fa-chevron-left prev-btn"></i>
+                <i class="fas fa-chevron-right next-btn"></i>
+            </div>
+          </div>
+        </div>
+        
+        <div class="shadow"></div>
+      
+        <script src="script.js"></script>
+
+      
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Bishwas Shrestha</h1>
+            <p>Civil Engineer || Graphic Designer</p>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+
+                <li>
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://www.linkedin.com/in/bishwas7068" target="_blank" class="footer__social-link">
+                    <i class="ri-linkedin-box-line"></i>
+                </a>
+
+                <a href="https://www.facebook.com/galatamasko/" target="_blank" class="footer__social-link">
+                    <i class="ri-facebook-box-line"></i>
+                </a>
+
+                <a href="https://www.instagram.com/galatamasko/" target="_blank" class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                 <a href="https://www.youtube.com/watch?v=5-_2z-DdWng&t=7429s" target="_blank" class="footer__copy">
+                    Code from Bedimcode<i class="ri-arrow-right-line"></i>
+                </a>
+            </span>
+        </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+          <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="js/scrollreveal.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="js/swiper-bundle.min.js"></script>
+      
+      <!--=============== EMAIL JS ===============-->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+      <!--=============== MAIN JS ===============-->
+      <script src="js/script.js"></script>
+      
+    </body>
+</html>
+
+  
